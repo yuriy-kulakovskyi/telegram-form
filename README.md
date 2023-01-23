@@ -4,7 +4,7 @@
   <br>
   Telegram form sender
   <br>
-  <h4 align="center">Calculator using HTML, Bootstrap, JavaScript
+  <h4 align="center">Telegram form sender using HTML, Bootstrap, JavaScript, Axios
 </h1>
 
 <img alt="Screenshot" src="screenshot.png">
