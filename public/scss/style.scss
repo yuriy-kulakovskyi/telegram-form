@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+@import 'mixins';
+@import 'variables';;
+
+* {
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 100%; min-height: 100vh;
+  background-color: $backgroundColor;
+  @include flexCenter();
+
+  .container {
+    &__title {
+      @include boldFont();
+      color: $themeColor;
+    }
+
+    &__paragraph {
+      @include lightFont();
+      color: $themeColor;
+    }
+
+    .form-group {
+      @include flexCenter();
+      align-items: flex-start;
+      gap: 10px;
+      padding: 15px 25px;
+      color: #fff;
+      font-size: 30px;
+      border: 1px solid $themeColor;
+      border-radius: 10px;
+
+      svg {
+        margin-top: 5px;
+      }
+
+      input, textarea {
+        background-color: transparent;
+        border: none;
+        @include lightFont();
+        color: #fff;
+        font-size: 20px;
+        resize: none;
+
+        &:focus {
+          outline: none;
+          border-color: inherit;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+        }
+
+        &::placeholder {
+          @include capsFont();
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+
+      textarea {
+        min-height: 150px;
+      }
+    }
+
+    .btn {
+      width: 100%;
+      border: 1px solid $themeColor;
+      color: $themeColor;
+      border-radius: 20px;
+      @include capsFont();
+
+      &:hover {
+        background-color: $themeColor;
+        color: $backgroundColor;
+      }
+    }
+  }
+}
