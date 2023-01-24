@@ -129,3 +129,9 @@
   background-color: #fff;
   color: rgb(81, 172, 145);
 }
+.wrapper .container .alert {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 20px;
+}

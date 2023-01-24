@@ -77,5 +77,10 @@
         color: $backgroundColor;
       }
     }
+
+    .alert {
+      @include lightFont();
+      font-size: 20px;
+    }
   }
 }
