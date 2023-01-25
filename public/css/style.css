@@ -7,6 +7,14 @@
   font-family: sans-serif;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 30rem rgb(96, 180, 238) inset !important;
+  box-shadow: 0 0 0px 30rem rgb(96, 180, 238) inset !important;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100vh;
