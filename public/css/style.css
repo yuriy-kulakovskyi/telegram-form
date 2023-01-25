@@ -10,7 +10,7 @@
 .wrapper {
   width: 100%;
   min-height: 100vh;
-  background-color: rgb(81, 172, 145);
+  background-color: rgb(96, 180, 238);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,7 +127,7 @@
 }
 .wrapper .container .btn:hover {
   background-color: #fff;
-  color: rgb(81, 172, 145);
+  color: rgb(96, 180, 238);
 }
 .wrapper .container .alert {
   font-size: 25px;
