@@ -1,5 +1,5 @@
-const TOKEN = '5701788034:AAE2ltDvrdPnBl9DLFxDlccDPtec0SDKClE';
-const CHAT_ID = '-1001595741712';
+const TOKEN = process.env.TOKEN;
+const CHAT_ID = process.env.CHAT_ID;
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 document.querySelector("#tg").addEventListener("submit", function(e) {
